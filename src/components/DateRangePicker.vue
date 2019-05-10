@@ -1,6 +1,6 @@
 <template>
     <div class="vue-daterange-picker">
-        <div class="form-control reportrange-text" @click="togglePicker">
+        <div class="form-control form-control-sm reportrange-text" @click="togglePicker">
             <slot
                     name="input"
                     :startDate="start"
